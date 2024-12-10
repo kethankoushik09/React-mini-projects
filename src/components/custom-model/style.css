@@ -1,0 +1,37 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(143, 236, 200);
+    position: fixed;
+    z-index: 1;
+    padding-top: 120px;
+}
+.model-conatiner{
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    border:  2px solid orange;
+    animation: conatiner-animation;
+    animation-duration: 0.3s;
+    position: relative;
+}
+.close-icon{
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    /* background-color: red; */
+    text-align: center;
+    /* border-radius: 50%; */
+    float: right;
+}
+@keyframes conatiner-animation{
+    from{
+        top: -200px;
+        opacity: 0;
+    }
+    to{
+        top:0;
+        opacity:1
+    }
+    
+}

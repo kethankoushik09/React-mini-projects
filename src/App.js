@@ -9,6 +9,7 @@
 // import Lightdark from "./components/light-dark-mode";
 // import Qrcode from "./components/Qr-code";
 // import Scrollindicator from "./components/scroll-indicator.js";
+import ModalTest from "./components/custom-model/modal-test";
 import Tabslist from "./components/custom-tab/Tab";
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         {/* <Qrcode/> */}
         {/* <Lightdark/> */}
         {/* <Scrollindicator url={"https://dummyjson.com/products?limit=100"}/> */}
-        <Tabslist/>
+        {/* <Tabslist/> */}
+        <ModalTest/>
       </div>
     </>
   );
