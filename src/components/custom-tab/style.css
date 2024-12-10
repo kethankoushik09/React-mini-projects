@@ -1,0 +1,30 @@
+.tab-item{
+    /* display: flex;   */
+    /* flex-direction: column;  */
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px
+}
+.active{
+    background-color: red;
+    color: black;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+    margin-bottom: 12px;
+
+}
+.wrapper{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 8px;
+}

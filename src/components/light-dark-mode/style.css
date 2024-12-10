@@ -1,0 +1,40 @@
+:root{
+    ---btn-backgroung:black;
+    ---backgound:white;
+    --btn-text:white;
+    ---text:black;
+}
+[data-theme="dark"]{
+    ---btn-backgroung:white;
+    ---backgound:black;
+    --btn-text:black;
+    ---text:white;
+}
+
+.light-dark{
+    height:100vh;
+    width: 100vw;
+    background-color: var(---backgound);
+    color: var(---text);
+    transition: all 0.3s;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    
+}
+
+.container button{
+    background-color: var(---btn-backgroung);
+    color: var(--btn-text);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    justify-content: center;
+    align-items: center; 
+
+} 
