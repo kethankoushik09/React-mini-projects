@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kethankoushik09/React-mini-projects/static/css/main.aead307f.css",
+    "main.js": "/kethankoushik09/React-mini-projects/static/js/main.c40aaf58.js",
+    "index.html": "/kethankoushik09/React-mini-projects/index.html",
+    "main.aead307f.css.map": "/kethankoushik09/React-mini-projects/static/css/main.aead307f.css.map",
+    "main.c40aaf58.js.map": "/kethankoushik09/React-mini-projects/static/js/main.c40aaf58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aead307f.css",
+    "static/js/main.c40aaf58.js"
+  ]
+}
