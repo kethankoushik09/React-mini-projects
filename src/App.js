@@ -17,7 +17,10 @@
 // import Customfeatureflag from "./components/feature-flag/context/flagcontext";
 // import Featureflag from "./components/feature-flag";
 // import Cutomfetch from "./components/custom-fetch-hook/test";
-import UseClickoutside from "./components/use-OutsideClick";
+// import Windhowsize from "./components/windowsize/test";
+// import UseClickoutside from "./components/use-OutsideClick";
+// import Scrolltopanddown from "./components/Scroll-top-down";
+import Scrollparticulardiv from "./components/Scroll-prticular-section";
 function App() {
   return (
     <>
@@ -39,7 +42,10 @@ function App() {
           <Featureflag/>
         </Customfeatureflag> */}
         {/* <Cutomfetch/> */}
-        <UseClickoutside/>
+        {/* <UseClickoutside/> */}
+        {/* <Windhowsize/> */}
+        {/* <Scrolltopanddown/> */}
+        <Scrollparticulardiv/>
 
       </div>
     </>
