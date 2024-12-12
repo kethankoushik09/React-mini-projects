@@ -9,8 +9,15 @@
 // import Lightdark from "./components/light-dark-mode";
 // import Qrcode from "./components/Qr-code";
 // import Scrollindicator from "./components/scroll-indicator.js";
-import ModalTest from "./components/custom-model/modal-test";
-import Tabslist from "./components/custom-tab/Tab";
+// import ModalTest from "./components/custom-model/modal-test";
+// import Tabslist from "./components/custom-tab/Tab";
+// import Github from "./components/github-profiler-findier";
+// import Autocomplete from "./components/Search-autocomplete";
+// import TTT from "./components/tic-tact-toe";
+// import Customfeatureflag from "./components/feature-flag/context/flagcontext";
+// import Featureflag from "./components/feature-flag";
+// import Cutomfetch from "./components/custom-fetch-hook/test";
+import UseClickoutside from "./components/use-OutsideClick";
 function App() {
   return (
     <>
@@ -24,7 +31,16 @@ function App() {
         {/* <Lightdark/> */}
         {/* <Scrollindicator url={"https://dummyjson.com/products?limit=100"}/> */}
         {/* <Tabslist/> */}
-        <ModalTest/>
+        {/* <ModalTest/> */}
+        {/* <Github/> */}
+        {/* <Autocomplete/> */}
+        {/* <TTT/> */}
+        {/* <Customfeatureflag>
+          <Featureflag/>
+        </Customfeatureflag> */}
+        {/* <Cutomfetch/> */}
+        <UseClickoutside/>
+
       </div>
     </>
   );
