@@ -1,0 +1,29 @@
+.wip-todo{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px
+}
+.wip-todo div{
+    background-color: rgb(247, 33, 21);
+}
+.completed-todo{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px
+}
+.blocks-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+.completed-todo div{
+    background-color: rgb(78, 176, 58);
+}

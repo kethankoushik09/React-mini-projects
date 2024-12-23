@@ -1,0 +1,45 @@
+.search-animi{
+    height:30px;
+    width:30px;
+    border: 8px solid rgb(179, 222, 240);
+    margin: auto;
+    border-radius: 50%;
+    border-top: 8px solid black;
+    animation: spin 1s infinite linear;
+    margin-top: 20%;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+    
+}
+.productlist-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+.productlist-conatiner li{
+    width: 30%;
+}
+.active{
+    background-color: red;
+}
+.category-buttons button{
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.item-list {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,16 @@
+.refresh-btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    font-weight: bold   ;
+}
+.quote-content{
+    color: white;
+    width: 40%;
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}

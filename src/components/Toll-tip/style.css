@@ -1,0 +1,15 @@
+.tolltip{
+    position: absolute;
+    top: calc(-100%,-50px);
+    transform: translateX(-50%);
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    min-width: 300px;
+}
+.tooltip-conatiner{
+    position: relative;
+    display: inline-block;
+}

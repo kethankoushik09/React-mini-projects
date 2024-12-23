@@ -1,0 +1,31 @@
+.Ripple-conatiner button{
+    position: relative;
+    overflow: hidden;
+}
+.inner-span{
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(235, 36, 36);
+  content: "";
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  animation: 1s ease 1 forwards bubble;
+}
+
+@keyframes bubble{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(10);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(40);
+        opacity: 0;
+    }
+    
+}

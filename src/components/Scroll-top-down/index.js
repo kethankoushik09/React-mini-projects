@@ -21,10 +21,6 @@ export default function Scrolltopanddown(){
     if(loading){
         return<h1>loding............!</h1>
     }
-    // {users ?console.log(users):null}
-    // function getusers(){
-    //     return users.products;
-    // }
     return(
         <>
             <div>

@@ -1,0 +1,27 @@
+.input-wrapper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    /* align-items: center; */
+    margin: auto;
+    border:  2px solid black;
+    margin-top: 10%;
+    padding: 20px;
+}
+.input-container{
+    display: flex;
+    gap: 20px;
+}
+.input-container label{
+    flex: 1;
+}
+.input-container input{
+    flex: 2;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+}
+.input-container span{
+    flex: 1;
+}

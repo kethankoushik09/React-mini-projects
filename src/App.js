@@ -20,7 +20,26 @@
 // import Windhowsize from "./components/windowsize/test";
 // import UseClickoutside from "./components/use-OutsideClick";
 // import Scrolltopanddown from "./components/Scroll-top-down";
-import Scrollparticulardiv from "./components/Scroll-prticular-section";
+// import Scrollparticulardiv from "./components/Scroll-prticular-section";
+// import Weather from "./components/weather-app/weather/indes;
+// import Pagination from "./components/Pagenation";
+// import Pagenationtest from "./components/Pagenation/pagenation-test";
+// import Digital from "./components/digitalclock";
+// import Timertest from "./components/timer/test";
+// import StepProgressBar from "./components/step-progress-bar";
+// import Randomquote from "./components/Random-quote-generator";
+// import Tooltest from "./components/Toll-tip/test";
+// import Filterproducts from "./components/filter-products";
+// import Currency from "./components/currency-converter";
+// import Musicplayer from "./components/Music-player";
+// import RippleEffect from "./components/Ripple-effect";
+// import Drag from "./components/drag-and-drop";
+// import Formvalidation from "./components/formvalidation";
+// import Nestedcoment from "./components/Nested-comments";
+// import Todo from "./components/Todo";
+import { GoogleOAuthProvider } from "@react-oauth/google";
+import Sort from "./components/sortdata";
+import Oauth from "./components/oauth";
 function App() {
   return (
     <>
@@ -45,8 +64,27 @@ function App() {
         {/* <UseClickoutside/> */}
         {/* <Windhowsize/> */}
         {/* <Scrolltopanddown/> */}
-        <Scrollparticulardiv/>
-
+        {/* <Scrollparticulardiv/> */}
+        {/* <Weather/> */}
+        {/* <Pagination/> */}
+        {/* <Pagenationtest/> */}
+        {/* <Digital/> */}
+        {/* <Timertest/> */}
+        {/* <StepProgressBar/> */}
+        {/* <Randomquote/> */}
+        {/* <Tooltest/> */}
+        {/* <Currency/> */}
+        {/* <Filterproducts/> */}
+        {/* <Musicplayer/> */}
+        {/* <RippleEffect/> */}
+        {/* <Drag/> */}
+        {/* <Formvalidation/> */}
+        {/* <Nestedcoment/> */}
+        {/* <Todo/> */}
+        {/* <Sort/> */}
+        <GoogleOAuthProvider clientId="1038264704649-smp8tls11dem9e1jd3r184hmr2jevm03.apps.googleusercontent.com">
+          <Oauth/>
+        </GoogleOAuthProvider>
       </div>
     </>
   );

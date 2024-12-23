@@ -1,0 +1,20 @@
+.weather-wrapper{
+    width: 50%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(148, 148, 165);
+}
+.weather-info{
+    display: flex;
+    justify-content:space-around;
+}
+.temp{
+    font-size: 30px;
+    font-weight: bold;
+}
+.column{
+    font-weight: bold;
+}
